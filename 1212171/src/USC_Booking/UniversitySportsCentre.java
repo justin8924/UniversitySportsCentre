@@ -2,6 +2,8 @@ package USC_Booking;
 
 import static USC_Booking.GrpExercise.grp;
 import static USC_Booking.ModifyBooking.modify;
+import static USC_Booking.MonthlyReport.mr;
+import static USC_Booking.ReviewClass.rc;
 
 import java.util.Scanner;
 
@@ -37,10 +39,15 @@ public class UniversitySportsCentre {
 			break;
 			
 		case 3:
-			
+			rc=new ReviewClass();
+			System.out.println("Do you want to select another option\n");
+			UniversitySportsCentre();
 			break;
 		case 4:
-			
+			mr=new MonthlyReport();
+			mr.ratinglist();
+			System.out.println("Thank You\n");
+			UniversitySportsCentre();
 			break;
 			
 		case 5:
