@@ -51,7 +51,9 @@ public class UniversitySportsCentre {
 			break;
 			
 		case 5:
-			
+			ChampionClass cc =new ChampionClass();
+			System.out.println("Thank You\n");
+			UniversitySportsCentre();
 			break;
 			
 		case 6:

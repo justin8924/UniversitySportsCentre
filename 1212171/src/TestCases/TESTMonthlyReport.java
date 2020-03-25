@@ -4,11 +4,13 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
+import USC_Booking.MonthlyReport;
+
 class TESTMonthlyReport {
 
 	@Test
-	void test() {
-		fail("Not yet implemented"); // TODO
+	void testRatinglist() {
+		MonthlyReport report =new  MonthlyReport();
 	}
 
 }
