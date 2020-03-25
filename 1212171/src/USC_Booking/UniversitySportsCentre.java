@@ -1,6 +1,8 @@
 package USC_Booking;
 
 import static USC_Booking.GrpExercise.grp;
+import static USC_Booking.ModifyBooking.modify;
+
 import java.util.Scanner;
 
 /**
@@ -28,7 +30,10 @@ public class UniversitySportsCentre {
 			break;
 	
 		case 2:
-			
+			grp.bookingList();
+			modify=new ModifyBooking();
+			System.out.println("Do you want to select another option\n");
+			UniversitySportsCentre();
 			break;
 			
 		case 3:
